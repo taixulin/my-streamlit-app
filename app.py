@@ -100,4 +100,3 @@ if food_list:
             st.success(f"這些食材的總價格大約是 **{min_total} ~ {max_total} 元**（視市場價格變動而異）")
 else:
     st.info("請上傳圖片或輸入食材名稱來估算價格")
-add app.py
